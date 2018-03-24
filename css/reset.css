@@ -41,3 +41,6 @@ select,
 button {
  -webkit-appearance: none;
  }
+ .align-center{
+     text-align: center;
+ }
