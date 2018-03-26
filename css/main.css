@@ -1204,7 +1204,7 @@ a.more {
 }
 .uploadBtn{
     display: inline-block;
-    width: 97px;
+    width: 97px; 
     margin-right: 70px;
     line-height: 36px;
     text-align: center;
@@ -1221,3 +1221,4 @@ a.more {
     top: 0;
     cursor: pointer;
 }
+/* 委托找货 */
