@@ -40,10 +40,7 @@ input[type="text"],
 select,
 button {
  -webkit-appearance: none;
-<<<<<<< HEAD
  }
  .align-center{
      text-align: center;
-=======
->>>>>>> d90b826cdd1d7edc67533f09eac06ec80d3961d7
  }
