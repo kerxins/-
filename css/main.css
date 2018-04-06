@@ -881,7 +881,9 @@ a.more {
 
 .left_menu {
     position: fixed;
-    bottom: 165px;
+    bottom: 50%;
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
     width: 50px;
     left: 50%;
     margin-left: -655px;
@@ -891,6 +893,7 @@ a.more {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     overflow: hidden;
+    display: none;
 }
 
 .left_menu_item {

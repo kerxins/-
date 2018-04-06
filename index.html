@@ -1057,6 +1057,14 @@
             nextButton: '.swiper-button-next',
             prevButton: '.swiper-button-prev'
         });
+        window.onscroll = function(){ 
+            var t = document.documentElement.scrollTop || document.body.scrollTop;  //获取距离页面顶部的距离
+            if(t>=600){
+                $('.left_menu').show();
+            }else{
+                $('.left_menu').hide();
+            }
+         }
     </script>
 </body>
 
