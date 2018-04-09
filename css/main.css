@@ -1697,3 +1697,51 @@ a.more {
     padding: 20px 5px;  
     border-bottom: 1px solid #eee;
 }
+.express_form_item_label{
+    display: inline-block;
+    color: #333;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.express_form_item{
+    margin-bottom: 15px;
+}
+.express_form_item:nth-child(2n){
+    margin-left: 20px;
+}
+.express_form_item:last-child{
+    margin-right: 0;
+}
+.express_data_form{
+    padding:20px 0;
+    margin-right: 20px;
+}
+.express_form_item_input{
+    width: 160px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0 8px;
+    outline: none;
+    border: 2px solid #1489A0;
+}
+.desscrible_box{
+    width: 399px;
+    height: 100px;
+    box-sizing: border-box;
+    resize: none;
+    border: 2px solid #ccc;
+    padding: 10px;
+    outline: none;
+    margin-left: 3px;   
+    float: right; 
+}
+.sub_apply{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background: #ED9027;
+    color: #fff;
+    margin-left: 40px;
+    cursor: pointer;
+    outline: none;
+}
