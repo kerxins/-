@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="css/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <title>企业新闻</title>
+    <style type="text/css">
+    	.all_type_details{
+    		display: none;
+    	}
+    	.all_type:hover .all_type_details{
+    		display: block;
+    	}
+    	.commonModule{
+    		height: 330px;
+    		overflow: hidden;
+    	}
+    	.newsContent .commonModuleTop{
+    		background-color: #FFF;
+    		color: #333;
+    		border-bottom: 1px solid #F3F0EC;
+    	}
+    	.commonModuleTop:before{
+    		background-color: #ED9027;
+    	}
+    	.menu_content{
+    		border-bottom: 3px solid #ED9027;
+    	}
+    </style>
+</head>
+
+<body class="index">
+    <!-- 页面主体 -->
+    <div class="container-fuild">
+        <!--头部-->
+        <div class="header-top">
+            <div class="container">
+                <!--left-->
+                <div class="pull-left">
+                    <span class="login-note">欢迎来到木易云！</span>
+                    <span class="user-name">18738154112</span>，
+                    <span class="logout">退出</span>
+                </div>
+                <!--right-->
+                <div class="pull-right">
+                    <ul class="top-menu">
+                        <li class="menu-item">
+                            客服电话：
+                            <span class="tel">400-077-9700</span>
+                        </li>
+                        <li class="menu-item">
+                            <a href="javascript:;" class="shangjia">商家入口</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="javascript:;">订单中心</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="javascript:;">个人中心</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="javascript:;">融宝账户</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="javascript:;">购物车
+                                <span class="shop_chart">(8)</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="javascript:;">帮助中心</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--serach-->
+        <div class="header-top-search">
+            <div class="container">
+                <div class="logo pull-left">
+                    <img src="images/index/logo.png" width="100%">
+                </div> 
+                <div class="search_box pull-left">
+                    <input type="search" class="search_input pull-left" placeholder="请输入产品名称，例如原木、板材等" />
+                    <button class="search_btn">
+                        搜索
+                    </button> 
+                </div>
+                <div class="top_ac_box pull-right">
+                    <div class="ac_box">
+                        <a href="javascript:;">
+                            <img src="images/index/icon-cart.png" /> 购物车
+                            <span class="shop_chart">(8)</span>
+                        </a>
+                    </div>
+                    <div class="ac_box ">
+                        <a href="javascript:;">
+                            <img src="images/index/icon-order.png" /> 订单中心
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--菜单-->
+        <div class="menu_content">
+        	<div class="container">
+	            <div class="all_type pull-left">
+	                <a href="javascript:;" class="all_type_detail">
+	                    全部木材分类
+	                </a>
+	                <!--全部种类-->
+	                <div class="all_type_details">
+	                    <ul class="all_type_detail_items">
+	                        <li class="all_type_detail_item">
+	                            <a href="javascript:;" class="all_type_text">
+	                                <img src="images/index/icon-c1.png"> 原木
+	                            </a>
+	                        </li>
+	                  
+	                        <li class="all_type_detail_item">
+	                            <a href="javascript:;" class="all_type_text">
+	                                <img src="images/index/icon-c3.png"> 加工锯材
+	                            </a>
+	                        </li>
+	                        <li class="all_type_detail_item">
+	                            <a href="javascript:;" class="all_type_text">
+	                                <img src="images/index/icon-c4.png"> 成品材
+	                            </a>
+	                        </li>
+	                        <li class="all_type_detail_item">
+	                            <a href="javascript:;" class="all_type_text">
+	                                <img src="images/index/icon-c5.png"> 人造板
+	                            </a>
+	                        </li>
+	                    </ul>
+	                    <!--gotoSHop-->
+	                    <div class="toshop">
+	                        <a href="javascript:;" class="gotoShop"></a>
+	                    </div>
+	                </div>
+	            </div>
+	            <ul class="menu_lists">
+	                <li class="menu_list">
+	                    <a href="javascript:;">首页</a>
+	                </li>
+	                <li class="menu_list">
+	                    <a href="javascript:;">现货商城</a>
+	                </li>
+	                <li class="menu_list">
+	                    <a href="javascript:;">限时特卖</a>
+	                </li>
+	                <li class="menu_list">
+	                    <a href="javascript:;">委托找货</a>
+	                </li>
+	                <li class="menu_list">
+	                    <a href="javascript:;">物流服务</a>
+	                </li>
+	                <li class="menu_list">
+	                    <a href="javascript:;">金融服务</a>
+	                </li>
+	                <li class="menu_list">
+	                    <a href="javascript:;">供应链服务</a>
+	                </li>
+	                <li class="menu_list">
+	                    <a href="javascript:;">商家合作</a>
+	                </li>
+	                <li class="menu_list active">
+	                    <a href="javascript:;">安全保障</a>
+	                </li>
+	                <li class="menu_list">
+	                    <a href="javascript:;">关于我们</a>
+	                </li>
+	            </ul>
+	        </div>
+        </div>
+        <!-- 企业新闻 -->
+        <div class="news_container">
+	  		<ul class="news_items">
+	  			<li class="news_item container clearfix">
+	  				<a href="javascript:;">
+		  				<div class="news_image_box pull-left">
+		  					<img src="images/news/news.png" />
+		  				</div>
+		  				<div class="news_content">
+		  					<div class="news_title">
+		  						安徽省工商局抽查人造板质量合格率82%
+		  					</div>
+		  					<div class="news_content_detail">
+		  						3月15日，安徽省工商局官网通报流通领域人造板质量抽查检验情况。通报称，为了加强流通领域商品质量监管，保障消费者合法权益，维护消费安全，安徽省工商局2017年依法对淮南、池州、铜陵、安庆等......
+		  					</div>
+		  					<div class="news_time_person">
+		  						发布时间：2018-03-15 | 发布人：王晓鹏
+		  					</div>
+		  				</div>
+	  				</a>
+	  			</li>  
+
+	  			<li class="news_item container clearfix">
+	  				<a href="javascript:;">
+		  				<div class="news_image_box pull-left">
+		  					<img src="images/news/news.png" />
+		  				</div>
+		  				<div class="news_content">
+		  					<div class="news_title">
+		  						安徽省工商局抽查人造板质量合格率82%
+		  					</div>
+		  					<div class="news_content_detail">
+		  						3月15日，安徽省工商局官网通报流通领域人造板质量抽查检验情况。通报称，为了加强流通领域商品质量监管，保障消费者合法权益，维护消费安全，安徽省工商局2017年依法对淮南、池州、铜陵、安庆等......
+		  					</div>
+		  					<div class="news_time_person">
+		  						发布时间：2018-03-15 | 发布人：王晓鹏
+		  					</div>
+		  				</div>
+	  				</a>
+	  			</li>
+
+	  			<li class="news_item container clearfix">
+	  				<a href="javascript:;">
+		  				<div class="news_image_box pull-left">
+		  				</div>
+		  				<div class="news_content no_image">
+		  					<div class="news_title">
+		  						安徽省工商局抽查人造板质量合格率82%
+		  					</div>
+		  					<div class="news_content_detail">
+		  						3月15日，安徽省工商局官网通报流通领域人造板质量抽查检验情况。通报称，为了加强流通领域商品质量监管，保障消费者合法权益，维护消费安全，安徽省工商局2017年依法对淮南、池州、铜陵、安庆等......
+		  					</div>
+		  					<div class="news_time_person">
+		  						发布时间：2018-03-15 | 发布人：王晓鹏
+		  					</div>
+		  				</div>
+	  				</a>
+	  			</li>
+	  		</ul>
+	  		
+        </div>
+
+        
+
+        <!-- 底部 -->
+        <div class="container">
+            <!--服务保障-->
+            <ul class="servers container">
+                <li class="server_item pull-left">
+                    <div class="image_box">
+                        <img src="images/index/icon-feature-1.png" />
+                    </div>
+                    <div class="server_title">纯寄售交易平台</div>
+                </li>
+                <li class="server_item pull-left">
+                    <div class="image_box">
+                        <img src="images/index/icon-feature-2.png" />
+                    </div>
+                    <div class="server_title">同质价格最低</div>
+                </li>
+                <li class="server_item pull-left">
+                    <div class="image_box">
+                        <img src="images/index/icon-feature-3.png" />
+                    </div>
+                    <div class="server_title">全部一手资源</div>
+                </li>
+                <li class="server_item pull-left">
+                    <div class="image_box">
+                        <img src="images/index/icon-feature-4.png" />
+                    </div>
+                    <div class="server_title">安全配送到门</div>
+                </li>
+                <li class="server_item pull-left">
+                    <div class="image_box">
+                        <img src="images/index/icon-feature-5.png" />
+                    </div>
+                    <div class="server_title">平台先行赔付</div>
+                </li>
+            </ul>
+        </div>
+        <div class="footer">
+            <ul class="container footerContent">
+                <li class="server_item pull-left">
+                    <div class="server_title">采购指南</div>
+                    <ul class="server_detail">
+                        <li>
+                            <a href="javascript:;">关于我们</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">帮助我们</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">联系客服</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="server_item pull-left">
+                    <div class="server_title">配送方式</div>
+                    <ul class="server_detail">
+                        <li>
+                            <a href="javascript:;">上门自提</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">平台物流</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">全国布仓</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="server_item pull-left">
+                    <div class="server_title">支付方式</div>
+                    <ul class="server_detail">
+                        <li>
+                            <a href="javascript:;">直接支付
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">余额支付</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">融宝担保</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="server_item pull-left">
+
+                    <div class="server_title">平台优惠</div>
+
+                    <ul class="server_detail">
+                        <li>
+                            <a href="javascript:;">直接支付
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">余额支付</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">融宝担保</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="server_item pull-left">
+                    <div class="server_title">特色服务</div>
+                    <ul class="server_detail">
+                        <li>
+                            <a href="javascript:;">平台物流
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">定制加工</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">委托找货</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="copyRight">Copyright ©2015-2016 木易云平台,AllRight Reserved 浙ICP备08015491号-14</div>
+    </div>
+    <!-- 右侧菜单 -->
+    <div class="right_menu">
+        <div class="menuBar_box">
+            <img src="images/index/icon-sidebar-cart.png">
+            <div class="maskactionBar mask">
+                <a href="javascript:;">购物车</a>
+            </div>
+        </div>
+        <div class="menuBar_box">
+            <img src="images/index/icon-sidebar-order.png">
+
+            <div class="maskactionBar mask">
+                <a href="javascript:;">订单中心</a>
+            </div>
+        </div>
+        <div class="menuBar_box">
+            <img src="images/index/icon-sidebar-user.png">
+            <div class="maskactionBar mask">
+                <a href="javascript:;">个人中心</a>
+            </div>
+        </div>
+        <div class="menuBar_box">
+            <img src="images/index/icon-sidebar-rb.png">
+            <div class="maskactionBar mask">
+                <a href="javascript:;">融宝账户</a>
+            </div>
+        </div>
+        <div class="menuBar_box">
+            <img src="images/index/icon-sidebar-service.png">
+            <div class="maskactionBar">
+                <a href="javascript:;">在线客服</a>
+            </div>
+        </div>
+        <!-- 服务热线 -->
+        <div class="menuBar_box">
+            <img src="images/index/icon-sidebar-phone.png">
+            <div class="maskactionBar whiteBox">
+                <span class="rext">服务热线：</span>
+                <div class="hotline">400-077-9700</div>
+            </div>
+        </div>
+        <!-- 微信二维码 -->
+        <div class="menuBar_box">
+            <img src="images/index/icon-sidebar-wx.png">
+            <div class="maskactionBar whiteBox erweimaBox">
+                <img src="images/index/icon-sidebar-qcode.png" />
+            </div>
+        </div>
+        <div class="menuBar_box">
+            <img src="images/index/icon-sidebar-top.png" />
+            <div class="maskactionBar mask">
+                <a href="javascript:;">返回顶部</a>
+            </div>
+        </div> 
+    </div>
+   
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script>
+       
+    </script>
+</body>
+
+</html>
