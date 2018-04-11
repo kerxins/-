@@ -167,6 +167,7 @@ body {
     font-weight: bold;
     color: #333;
     background-color: #FFF;
+    border-bottom: 3px solid #ED9027;
 }
 
 .menu_list {
@@ -524,6 +525,7 @@ a.more {
 .order_items {
     width: 100%;
     color: #333;
+    margin-top: 5px;
 }
 
 .order_type {
@@ -532,6 +534,7 @@ a.more {
 
 .order_items th {
     text-align: center;
+    font-size: 12px
 }
 
 .them {
@@ -541,8 +544,9 @@ a.more {
 }
 
 .tab_line {
-    height: 37px;
+    height: 30px;
     cursor: pointer;
+    padding-right: 20px;
 }
 
 .tab_line:hover {
@@ -2022,4 +2026,129 @@ input.register_sub_item_input{
     font-size: 12px;
     color: #999;
     margin-top: 25px;
+}
+/*委托找货*/
+.findgoods_type_box{
+    box-sizing: border-box;
+    width: 126px;
+    height: 40px;
+    border: 2px solid #1489A0;
+    position: relative;
+    margin-right: 10px;
+}
+.findgoods_type_box:last-child{
+    margin-right: 0
+}
+.findgoods_type{
+    line-height: 40px;
+    margin-right: 9px
+}
+.findgoods_type_one{
+    height: 100%;
+    color: #333;
+    line-height: 40px;
+    padding: 0 6px;
+    background-color: #eee;
+    font-size: 12px;
+}
+.findgoods_type_input{
+    width: 64px;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+    color: #000;
+    outline: none;
+}
+.location{
+    height: 44px;
+    line-height: 44px;
+    background-color: #FFF;
+    font-size: 14px;
+    border-bottom: 1px solid #F3F0EC;
+    color: #666;
+}
+a.pageLocation{
+    color: #333;
+    position: relative;
+    margin-right: 15px;
+}
+.pageLocation:after{
+    content: '';
+    width: 5px;
+    height: 8px;
+    position: absolute;
+    background-image: url(../images/news/news-next.png);
+    background-size: cover;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-45%);
+}  
+/*新闻详情*/
+.singlenews_warp{
+    width: 980px;
+    margin: 0 auto;
+}
+.singlenews_title{
+    padding-top: 50px;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+}
+.news_info{
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 40px;
+}
+.newsDetail_content{
+    width: 100%;
+    box-sizing: border-box;
+    border:1px solid #F3F0EC;
+    padding: 40px 50px;
+}
+.newsDetail_content img{
+    width: 100%
+}
+.tab_title{
+    background-color: #F3F0EC;
+}
+.about_us_tab{
+    width: 555px;
+    border: 1px solid #CCC7C0;
+}
+.about_us_tab tr th{
+    border: 1px solid #CCC7C0;
+    text-align: center;
+    height: 36px;
+    font-siz      e: 12px;
+}
+/*关于我们*/
+.indent{
+    text-indent: 2em;
+}
+.fir_title{
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+.fir_title:first-child{
+    margin-top: 30px;
+}
+.sec_title{
+    font-size: 12px;
+    font-weight: bold;
+}
+.sm_item{
+    margin-bottom: 20px;
+}
+.nosec{
+    margin-bottom: 0
+}
+.shop_ac_box{
+    position: relative;
+    color: #FFF;
+    height: 380px;
 }

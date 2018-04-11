@@ -40,7 +40,9 @@ input[type="text"],
 select,
 button {
  -webkit-appearance: none;
-font-family: '微软雅黑'
+font-family: '微软雅黑';
+margin: 0;
+outline: none;
  }
  .align-center{
      text-align: center;

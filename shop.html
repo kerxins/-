@@ -6,7 +6,28 @@
     <link type="text/css" rel="stylesheet" href="css/reset.css" />
     <link type="text/css" rel="stylesheet" href="css/swiper.min.css" />
     <link type="text/css" rel="stylesheet" href="css/main.css" />
-    <title>首页</title>
+    <title>现货商城</title>
+    <style>
+
+    	.sec_all_type_items{
+    		display: none;
+    	}
+    	.sec_all_type_items.active{
+    		display: block;
+    	}
+    	.all_type_details{
+    		width: 210px;
+    	}
+    	.all_type_detail_item{
+    		height: 46px;
+    		background-color: #FFF;
+    		color: #333;
+    	}
+        .all_type_text{
+        	height: 46px;
+        	line-height: 46px;
+        }
+    </style>
 </head>
 
 <body class="index">
@@ -59,7 +80,7 @@
                     <img src="images/index/logo.png" width="100%">
                 </div>
                 <div class="search_box pull-left">
-                    <input type="search" class="search_input pull-left" placeholder="请输12121212入产品名称，例如原木、板材等" />
+                    <input type="search" class="search_input pull-left" placeholder="请输入产品名称，例如原木、板材等" />
                     <button class="search_btn">
                         搜索
                     </button>
@@ -80,20 +101,61 @@
             </div>
         </div>
         <!--菜单-->
-        <div class="menu_content container">
-            <div class="all_type pull-left">
-                <a href="javascript:;" class="all_type_detail">
-                    全部木材分类
-                </a>
+        <div class="menu_content">
+        	<div class="container">
+	            <div class="all_type pull-left">
+	                <a href="javascript:;" class="all_type_detail">
+	                    全部木材分类
+	                </a>
+            	</div>
+	            <ul class="menu_lists">
+	                <li class="menu_list">
+	                    <a href="javascript:;">首页</a>
+	                </li>
+	                <li class="menu_list">
+	                    <a href="javascript:;">现货商城</a>
+	                </li>
+	                <li class="menu_list active">
+	                    <a href="javascript:;">限时特卖</a>
+	                </li>
+	                <li class="menu_list">
+	                    <a href="javascript:;">委托找货</a>
+	                </li>
+	                <li class="menu_list">
+	                    <a href="javascript:;">物流服务</a>
+	                </li>
+	                <li class="menu_list">
+	                    <a href="javascript:;">金融服务</a>
+	                </li>
+	                <li class="menu_list">
+	                    <a href="javascript:;">供应链服务</a>
+	                </li>
+	                <li class="menu_list">
+	                    <a href="javascript:;">商家合作</a>
+	                </li>
+	                <li class="menu_list">
+	                    <a href="javascript:;">安全保障</a>
+	                </li>
+	                <li class="menu_list">
+	                    <a href="javascript:;">关于我们</a>
+	                </li>
+	            </ul>
+        	</div>
+        </div>
+
+        <!--主体-->
+        <div class="container">
+			<!-- 头部塞选 -->
+			<div class="shop_ac_box ">
                 <!--全部种类-->
                 <div class="all_type_details">
                     <ul class="all_type_detail_items">
                         <li class="all_type_detail_item">
                             <a href="javascript:;" class="all_type_text">
-                                <img src="images/index/icon-c1.png"> 原木
+                                <img src="images/shop/icon-c1-dark.png"> 原木
                             </a>
                             <!-- 二级菜单-->
-                            <ul class="sec_all_type_items">
+                            <ul class="sec_all_type_items active">
                                 <li class='sec_all_type_item'>
                                     <div class='sec_all_type_item_label pull-left'>1212</div>
                                     <!-- 二级菜单列表 -->
@@ -160,25 +222,7 @@
                                         </li>
                                         <li class="sec_all_list pull-left">
                                             <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
+                                       	</li>
                                     </ul>
                                 </li>
                                 <li class='sec_all_type_item'>
@@ -444,72 +488,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <!-- <li class="all_type_detail_item">
-                            <a href="javascript:;" class="all_type_text">
-                                <img src="images/index/icon-c2.png"> 防腐/碳化木
-                            </a>
-                            <ul class="sec_all_type_items">
-                                <li class='sec_all_type_item'>
-                                    <div class='sec_all_type_item_label pull-left'>1212</div>
-                                    <ul class="sec_all_lists clearfix">
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                        <li class="sec_all_list pull-left">
-                                       
-                                        <li class="sec_all_list pull-left">
-                                            <a href="javascript:;">红橡</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-
-                        </li> -->
+                       
                         <li class="all_type_detail_item">
                             <a href="javascript:;" class="all_type_text">
                                 <img src="images/index/icon-c3.png"> 加工锯材
@@ -2108,722 +2087,6 @@
                     </div>
                 </div>
             </div>
-            <ul class="menu_lists">
-                <li class="menu_list active">
-                    <a href="javascript:;">首页</a>
-                </li>
-                <li class="menu_list">
-                    <a href="javascript:;">现货商城</a>
-                    <!-- <ul class="sec_menu_lists">
-                        <li class="sec_menu_list">
-                            <a href="javascript:;">
-                                二级菜单
-                            </a>
-                        </li>
-                        <li class="sec_menu_list">
-                            <a href="javascript:;">
-                                二级菜单
-                            </a>
-                        </li>
-                        <li class="sec_menu_list">
-                            <a href="javascript:;">
-                                二级菜单
-                            </a>
-                        </li>
-                    </ul> -->
-                </li>
-                <li class="menu_list">
-                    <a href="javascript:;">限时特卖</a>
-                </li>
-                <li class="menu_list">
-                    <a href="javascript:;">委托找货</a>
-                </li>
-                <li class="menu_list">
-                    <a href="javascript:;">物流服务</a>
-                </li>
-                <li class="menu_list">
-                    <a href="javascript:;">金融服务</a>
-                </li>
-                <li class="menu_list">
-                    <a href="javascript:;">供应链服务</a>
-                </li>
-                <li class="menu_list">
-                    <a href="javascript:;">商家合作</a>
-                </li>
-                <li class="menu_list">
-                    <a href="javascript:;">安全保障</a>
-                </li>
-                <li class="menu_list">
-                    <a href="javascript:;">关于我们</a>
-                </li>
-            </ul>
-        </div>
-        <!--轮播图-->
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="images/index/hero-img-1.jpg" width="100%" />
-                </div>
-                <div class="swiper-slide">
-                    <img src="images/index/hero-img-2.jpg" width="100%" />
-                </div>
-                <div class="swiper-slide">
-                    <img src="images/index/hero-img-3.jpg" width="100%" />
-                </div>
-
-            </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- Add Navigation -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-
-        <!--模块列表-->
-        <div class="modules container">
-            <a class="hot_shop pull-left" href="javascript:;"></a>
-            <ul class="modules_items">
-                <li class="module_item">
-                    <a href="javascript:;">
-                        <img src="images/index/quicknav-2.png" />
-                    </a>
-                </li>
-                <li class="module_item">
-                    <a href="javascript:;">
-                        <img src="images/index/quicknav-3.png" />
-                    </a>
-                </li>
-                <li class="module_item">
-                    <a href="javascript:;">
-                        <img src="images/index/quicknav-4.png" />
-                    </a>
-                </li>
-                <li class="module_item">
-                    <a href="javascript:;">
-                        <img src="images/index/quicknav-5.png" />
-                    </a>
-                </li>
-                <li class="module_item">
-                    <a href="javascript:;">
-                        <img src="images/index/quicknav-6.png" />
-                    </a>
-                </li>
-                <li class="module_item">
-                    <a href="javascript:;">
-                        <img src="images/index/quicknav-7.png" />
-                    </a>
-                </li>
-            </ul>
-            <!--客服-->
-            <div class="pull-right kefu_modules">
-                <div class="kefu_module">
-                    <a class="kefu_image" href="javascript:;">
-                        <img src="images/index/quicknav-qcode.png" />
-                    </a>
-                    <a class="kefu_image" href="javascript:;">
-                        <img src="images/index/quicknav-qq.png" />
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!--商城-->
-        <div class="container">
-            <div class="top_banner">
-                <img src="images/index/img-bestseller-title.png" width="100%" />
-                <a class="entry_shop pull-right" href="javascript:;">进入商城</a>
-            </div>
-            <!--订单列表-->
-            <div class="orderList clearfix">
-                <div class="pull-left order-container">
-                    <div class="order_top">
-                        成品材特卖
-                        <a class="pull-right more" href="javascript:;">更多></a>
-                    </div>
-                    <!--orderList-->
-                    <table class="order_items">
-                        <tr class="them">
-                            <th class="title order_type">品类</th>
-                            <th class="title" align="center">分类</th>
-                            <th class="title" align="center">规格（厚x宽x长/mm）</th>
-                            <th class="title" align="center">单价</th>
-                            <th class="title" align="center">特价时间</th>
-                            <th class="title" align="center">操作</th>
-                        </tr>
-                        <tr class="tab_line">
-                            <th class="title order_type">樟子松</th>
-                            <th class="title " align="center">原木</th>
-                            <th class="title" align="center">100x100x50</th>
-                            <th class="title" align="center">1800</th>
-                            <th class="title" align="center">最后10天</th>
-                            <th class="title ac_view" align="center">
-                                <a href="javascript:;">查看</a>
-                            </th>
-                        </tr>
-                        <tr class="tab_line">
-                            <th class="title order_type">樟子松</th>
-                            <th class="title " align="center">原木</th>
-                            <th class="title" align="center">100x100x50</th>
-                            <th class="title" align="center">1800</th>
-                            <th class="title" align="center">最后10天</th>
-                            <th class="title ac_view" align="center">
-                                <a href="javascript:;">查看</a>
-                            </th>
-                        </tr>
-                        <tr class="tab_line">
-                            <th class="title order_type">樟子松</th>
-                            <th class="title " align="center">原木</th>
-                            <th class="title" align="center">100x100x50</th>
-                            <th class="title" align="center">1800</th>
-                            <th class="title" align="center">最后10天</th>
-                            <th class="title ac_view" align="center">
-                                <a href="javascript:;">查看</a>
-                            </th>
-                        </tr>
-                        <tr class="tab_line">
-                            <th class="title order_type">樟子松</th>
-                            <th class="title " align="center">原木</th>
-                            <th class="title" align="center">100x100x50</th>
-                            <th class="title" align="center">1800</th>
-                            <th class="title" align="center">最后10天</th>
-                            <th class="title ac_view" align="center">
-                                <a href="javascript:;">查看</a>
-                            </th>
-                        </tr>
-                    </table>
-                </div>
-
-                <div class="pull-left order-container">
-                    <div class="order_top">
-                        锯材特卖
-                        <a class="pull-right more" href="javascript:;">更多></a>
-                    </div>
-                    <!--orderList-->
-                    <table class="order_items">
-                        <tr class="them">
-                            <th class="title order_type">品类</th>
-                            <th class="title" align="center">分类</th>
-                            <th class="title" align="center">规格（厚x宽x长/mm）</th>
-                            <th class="title" align="center">单价</th>
-                            <th class="title" align="center">特价时间</th>
-                            <th class="title" align="center">操作</th>
-                        </tr>
-                        <tr class="tab_line">
-                            <th class="title order_type">樟子松</th>
-                            <th class="title " align="center">原木</th>
-                            <th class="title" align="center">100x100x50</th>
-                            <th class="title" align="center">1800</th>
-                            <th class="title" align="center">最后10天</th>
-                            <th class="title ac_view" align="center">
-                                <a href="javascript:;">查看</a>
-                            </th>
-                        </tr>
-                        <tr class="tab_line">
-                            <th class="title order_type">樟子松</th>
-                            <th class="title " align="center">原木</th>
-                            <th class="title" align="center">100x100x50</th>
-                            <th class="title" align="center">1800</th>
-                            <th class="title" align="center">最后10天</th>
-                            <th class="title ac_view" align="center">
-                                <a href="javascript:;">查看</a>
-                            </th>
-                        </tr>
-                        <tr class="tab_line">
-                            <th class="title order_type">樟子松</th>
-                            <th class="title " align="center">原木</th>
-                            <th class="title" align="center">100x100x50</th>
-                            <th class="title" align="center">1800</th>
-                            <th class="title" align="center">最后10天</th>
-                            <th class="title ac_view" align="center">
-                                <a href="javascript:;">查看</a>
-                            </th>
-                        </tr>
-                        <tr class="tab_line">
-                            <th class="title order_type">樟子松</th>
-                            <th class="title " align="center">原木</th>
-                            <th class="title" align="center">100x100x50</th>
-                            <th class="title" align="center">1800</th>
-                            <th class="title" align="center">最后10天</th>
-                            <th class="title ac_view" align="center">
-                                <a href="javascript:;">查看</a>
-                            </th>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <!--实木家居的经典-->
-            <div class="container singleModule">
-                <div class="pull-left shimu">
-                    <img src="images/index/ad-1.jpg" />
-                </div>
-                <!-- list -->
-                <div class="pull-right singleModule_list">
-                    <div class="top">
-                        <img src="images/index/img-title-orange.png" />
-                    </div>
-                    <table class="order_items ">
-                        <tr class="tab_line">
-                            <th class="title order_type">1335****12345</th>
-                            <th class="title " align="center">张女士</th>
-                            <th class="title" align="center">金融服务</th>
-                            <th class="title" align="center">5000m²</th>
-                            <th class="title situation" align="center">正在洽谈中</th>
-                            <th class="title " align="center">
-                                2017-02-28
-                            </th>
-                        </tr>
-                        <tr class="tab_line">
-                            <th class="title order_type">1335****12345</th>
-                            <th class="title " align="center">张女士</th>
-                            <th class="title" align="center">金融服务</th>
-                            <th class="title" align="center">5000m²</th>
-                            <th class="title situation" align="center">正在洽谈中</th>
-                            <th class="title " align="center">
-                                2017-02-28
-                            </th>
-                        </tr>
-                        <tr class="tab_line">
-                            <th class="title order_type">1335****12345</th>
-                            <th class="title " align="center">张女士</th>
-                            <th class="title" align="center">金融服务</th>
-                            <th class="title" align="center">5000m²</th>
-                            <th class="title situation" align="center">正在洽谈中</th>
-                            <th class="title " align="center">
-                                2017-02-28
-                            </th>
-                        </tr>
-                        <tr class="tab_line">
-                            <th class="title order_type">1335****12345</th>
-                            <th class="title " align="center">张女士</th>
-                            <th class="title" align="center">金融服务</th>
-                            <th class="title" align="center">5000m²</th>
-                            <th class="title situation" align="center">正在洽谈中</th>
-                            <th class="title " align="center">
-                                2017-02-28
-                            </th>
-                        </tr>
-                        <tr class="tab_line">
-                            <th class="title order_type">1335****12345</th>
-                            <th class="title " align="center">张女士</th>
-                            <th class="title" align="center">金融服务</th>
-                            <th class="title" align="center">5000m²</th>
-                            <th class="title situation" align="center">正在洽谈中</th>
-                            <th class="title " align="center">
-                                2017-02-28
-                            </th>
-                        </tr>
-
-                    </table>
-                </div>
-            </div>
-            <!-- 找货信息 -->
-            <div class="container commonModule">
-                <div class="commonModule_left pull-left">
-                    <div class="commonModuleTop ">
-                        找货信息
-                    </div>
-                    <div class="commonModuleContent">
-                        <table class="order_items ">
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                        </table>
-                        <div class="commenBottom">
-                            <img src="images/index/ad-scan-1.png" />
-                        </div>
-                    </div>
-                </div>
-                <div class="commonModule_right pull-right">
-                    <img src='images/index/ad-2.jpg' />
-                </div>
-            </div>
-            <!-- 物流信息 -->
-            <div class="container commonModule">
-                <div class="commonModule_left pull-left">
-                    <div class="commonModuleTop ">
-                        物流信息
-                        <a class="more pull-right" href="javascript:;">进入物流 ></a>
-                    </div>
-                    <div class="commonModuleContent">
-                        <table class="order_items ">
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                        </table>
-                        <div class="commenBottom">
-                            <img src="images/index/ad-scan-2.png" />
-                        </div>
-                    </div>
-
-                </div>
-                <div class="commonModule_right pull-right">
-                    <img src='images/index/ad-3.jpg' />
-                </div>
-            </div>
-            <!-- 金融服务 -->
-            <div class="container commonModule">
-                <div class="commonModule_left pull-left">
-                    <div class="commonModuleTop ">
-                        金融服务
-                        <a class="more pull-right" href="javascript:;">进入服务 ></a>
-                    </div>
-                    <div class="commonModuleContent">
-                        <table class="order_items ">
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                            <tr class="tab_line">
-                                <th class="title order_type">1335****12345</th>
-                                <th class="title " align="center">张女士</th>
-                                <th class="title" align="center">金融服务</th>
-                                <th class="title" align="center">5000m²</th>
-                                <th class="title situation" align="center">正在洽谈中</th>
-                                <th class="title " align="center">
-                                    2017-02-28
-                                </th>
-                            </tr>
-                        </table>
-                        <div class="commenBottom">
-                            <img src="images/index/ad-scan-3.png" />
-                        </div>
-                    </div>
-
-                </div>
-                <div class="commonModule_right pull-right">
-                    <img src='images/index/ad-4.jpg' />
-                </div>
-            </div>
-            <!-- 新闻 -->
-            <div class="container commonModule">
-                <div class="pull-left newsContent">
-                    <div class="commonModuleTop ">
-                        木易云企业新闻资讯
-                    </div>
-                    <ul class="newsList">
-                        <li class="first">
-                            <a href="javasript:;" class="clearfix">
-                                <div class="newsImage pull-left">
-                                    <img src="images/index/news-thumb-1.png" />
-                                </div>
-                                <div class="newsDetail">
-                                    <h3 class="title">广西林业总产值17年破5000亿元</h3>
-                                    <div class="newsDetailContent">
-                                        年关之际，各港口木材交易已经基本处于低位。从最新统计的库存来看，太仓港和岚山港库存总量较大，尤其是辐射松。以太仓港为例。据统计，截止1月26日...
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="second">
-                            <a href="javascript:;" class="clearfix">
-                                <div class="pull-left">因卡车司机短缺，加拿大林业损失千万美元</div>
-                                <span class="newstime pull-right">2018-01-23</span>
-                            </a>
-                        </li>
-                        <li class="second">
-                            <a href="javascript:;" class="clearfix">
-                                <div class="pull-left">因卡车司机短缺，加拿大林业损失千万美元</div>
-                                <span class="newstime pull-right">2018-01-23</span>
-                            </a>
-                        </li>
-                        <li class="second">
-                            <a href="javascript:;" class="clearfix">
-                                <div class="pull-left">因卡车司机短缺，加拿大林业损失千万美元</div>
-                                <span class="newstime pull-right">2018-01-23</span>
-                            </a>
-                        </li>
-                        <li class="second">
-                            <a href="javascript:;" class="clearfix">
-                                <div class="pull-left">因卡车司机短缺，加拿大林业损失千万美元</div>
-                                <span class="newstime pull-right">2018-01-23</span>
-                            </a>
-                        </li>
-                        <li class="second">
-                            <a href="javascript:;" class="clearfix">
-                                <div class="pull-left">因卡车司机短缺，加拿大林业损失千万美元</div>
-                                <span class="newstime pull-right">2018-01-23</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="pull-right newsContent">
-                    <div class="commonModuleTop ">
-                        木易云企业新闻资讯
-                    </div>
-                    <ul class="newsList">
-                        <li class="first">
-                            <a href="javasript:;" class="clearfix">
-                                <div class="newsImage pull-left">
-                                    <img src="images/index/news-thumb-1.png" />
-                                </div>
-                                <div class="newsDetail">
-                                    <h3 class="title">广西林业总产值17年破5000亿元</h3>
-                                    <div class="newsDetailContent">
-                                        年关之际，各港口木材交易已经基本处于低位。从最新统计的库存来看，太仓港和岚山港库存总量较大，尤其是辐射松。以太仓港为例。据统计，截止1月26日...
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="second">
-                            <a href="javascript:;" class="clearfix">
-                                <div class="pull-left">因卡车司机短缺，加拿大林业损失千万美元</div>
-                                <span class="newstime pull-right">2018-01-23</span>
-                            </a>
-                        </li>
-                        <li class="second">
-                            <a href="javascript:;" class="clearfix">
-                                <div class="pull-left">因卡车司机短缺，加拿大林业损失千万美元</div>
-                                <span class="newstime pull-right">2018-01-23</span>
-                            </a>
-                        </li>
-                        <li class="second">
-                            <a href="javascript:;" class="clearfix">
-                                <div class="pull-left">因卡车司机短缺，加拿大林业损失千万美元</div>
-                                <span class="newstime pull-right">2018-01-23</span>
-                            </a>
-                        </li>
-                        <li class="second">
-                            <a href="javascript:;" class="clearfix">
-                                <div class="pull-left">因卡车司机短缺，加拿大林业损失千万美元</div>
-                                <span class="newstime pull-right">2018-01-23</span>
-                            </a>
-                        </li>
-                        <li class="second">
-                            <a href="javascript:;" class="clearfix">
-                                <div class="pull-left">因卡车司机短缺，加拿大林业损失千万美元</div>
-                                <span class="newstime pull-right">2018-01-23</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- 合作商家 -->
-            <div class="container company">
-                <div class="align-center">
-                    <span class="companyTitle">合作商家展示</span>
-                </div>
-                <ul class="conpanies_lists">
-                    <li class='conpanies_list'>
-                        <a href="javascript:;">
-                            <img src="images/index/img-co-operator-example.png">
-                        </a>
-                    </li>
-                    <li class='conpanies_list'>
-                        <a href="javascript:;">
-                            <img src="images/index/img-co-operator-example.png">
-                        </a>
-                    </li>
-                    <li class='conpanies_list'>
-                        <a href="javascript:;">
-                            <img src="images/index/img-co-operator-example.png">
-                        </a>
-                    </li>
-                    <li class='conpanies_list'>
-                        <a href="javascript:;">
-                            <img src="images/index/img-co-operator-example.png">
-                        </a>
-                    </li>
-                    <li class='conpanies_list'>
-                        <a href="javascript:;">
-                            <img src="images/index/img-co-operator-example.png">
-                        </a>
-                    </li>
-                    <li class='conpanies_list'>
-                        <a href="javascript:;">
-                            <img src="images/index/img-co-operator-example.png">
-                        </a>
-                    </li>
-                    <li class='conpanies_list'>
-                        <a href="javascript:;">
-                            <img src="images/index/img-co-operator-example.png">
-                        </a>
-                    </li>
-                    <li class='conpanies_list'>
-                        <a href="javascript:;">
-                            <img src="images/index/img-co-operator-example.png">
-                        </a>
-                    </li>
-                    <li class='conpanies_list'>
-                        <a href="javascript:;">
-                            <img src="images/index/img-co-operator-example.png">
-                        </a>
-                    </li>
-                    <li class='conpanies_list'>
-                        <a href="javascript:;">
-                            <img src="images/index/img-co-operator-example.png">
-                        </a>
-                    </li>
-                    <li class='conpanies_list'>
-                        <a href="javascript:;">
-                            <img src="images/index/img-co-operator-example.png">
-                        </a>
-                    </li>
-                    <li class='conpanies_list'>
-                        <a href="javascript:;">
-                            <img src="images/index/img-co-operator-example.png">
-                        </a>
-                    </li>
-                </ul>
-            </div>
             <!--服务保障-->
             <ul class="servers container">
                 <li class="server_item pull-left">
@@ -3044,14 +2307,21 @@
             nextButton: '.swiper-button-next',
             prevButton: '.swiper-button-prev'
         });
-        window.onscroll = function () {
-            var t = document.documentElement.scrollTop || document.body.scrollTop; //获取距离页面顶部的距离
-            if (t >= 600) {
+        window.onscroll = function(){ 
+            var t = document.documentElement.scrollTop || document.body.scrollTop;  //获取距离页面顶部的距离
+            if(t>=600){
                 $('.left_menu').show();
-            } else {
+            }else{
                 $('.left_menu').hide();
             }
         }
+         // tab切换
+        $('.tab').on('click', 'li', function(event) {
+         	event.preventDefault();
+         	/* Act on the event */
+         	$(this).addClass('active').siblings().removeClass('active');
+         	$('.container_item').eq($(this).index()).addClass('active').siblings().removeClass('active');
+		});
     </script>
 </body>
 
